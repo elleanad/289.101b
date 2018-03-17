@@ -1,31 +1,59 @@
 div {
-    outline: 1px solid red;
+    outline:1px solid yellow;
 }
 
 body{
-    background-color: #5E2C05
+    background-color:#441e13;
+    color: white;
 }
 
-.logoarea {
-    width:100%;
-    float: left;
-}
-
-.menu {
-    width: 100%;
+.logocontainer {
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    overflow: hidden;   
+    /*  makes the div grow to accommodate float child elements  */
 }
 
 .logo {
-    width: 200px;
-    height: 100px;
-    float: left;
+    width:205px;
+    float:left;
     color: white;
-    font-size: 2.5rem;
-    font-weight: bold;
+    font-size:2.5rem;
+    font-weight:bold;
 }
 
 .slogan {
-    width: 300px;
-    height: 100px;
+    width:300px;
+    float:left;
+    color: #946c60;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    margin-top: 18px;
+}
+
+.nav{
+    background-color: #39180f;
+    height: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    max-width: 920px;
+}
+
+.nav ol{
+    padding: 18px 10px;
+}
+
+.nav li{
+    border-right: 1px solid #D4B364;
+    display: black;
     float: left;
+    font-family: sans-serif;
+    padding: 6px 20px;
+}
+
+.nav li:last-child{
+    border-right: none;
 }
