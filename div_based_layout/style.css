@@ -1,5 +1,5 @@
 div {
-    outline:1px solid yellow
+    outline:1px
         ;
 }
 
@@ -63,10 +63,10 @@ body{
 .aboutarea{
     background-color: #87a984;
     max-width: 920px;
-    height: 212px;
+    height: 200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .paperplane{
@@ -77,7 +77,7 @@ body{
 }
 
 .about{
-    width:110px;
+    width:700px;
     float:left;
     color: white;
     font-size:3rem;
@@ -86,10 +86,13 @@ body{
 }
 
 .abouttext{
-    width:550px;
+    width:430px;
     float:left;
     color: #f0eed9;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding-top: 10px;
+    font-weight: 100;
 }
 
 .bottomarea{
@@ -97,15 +100,37 @@ body{
     height: 600px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .leftnav {
-    width: 200px;
+    background-color: #96afac;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px 20px;
     float: left;
 }
 
-.howwework{
-    width: 730px;
+.leftnav ul{
+    padding: 18px 10px;
+    list-style-type: none;
+}
+
+.leftnav li{
+    border-right: 1px solid #D4B364;
+    display: black;
     float: left;
+    font-family: sans-serif;
+    padding: 6px 20px;
+}
+
+.leftnav li:last-child{
+    border-right: none;
+}
+.howwework{
+    width: 680px;
+    float: left;
+    padding: 6px 20px;
+    font-family: sans-serif;
 }
