@@ -1,5 +1,6 @@
 div {
-    outline:1px solid yellow;
+    outline:1px solid yellow
+        ;
 }
 
 body{
@@ -42,8 +43,9 @@ body{
     max-width: 920px;
 }
 
-.nav ol{
+.nav ul{
     padding: 18px 10px;
+    list-style-type: none;
 }
 
 .nav li{
@@ -56,4 +58,54 @@ body{
 
 .nav li:last-child{
     border-right: none;
+}
+
+.aboutarea{
+    background-color: #87a984;
+    max-width: 920px;
+    height: 212px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.paperplane{
+    width: 160px;
+    float: left;
+    height: 152px;
+    padding: 30px;
+}
+
+.about{
+    width:110px;
+    float:left;
+    color: white;
+    font-size:3rem;
+    font-weight:bold;
+    margin-top: 40px;
+}
+
+.abouttext{
+    width:550px;
+    float:left;
+    color: #f0eed9;
+    font-size: 1.5rem;
+}
+
+.bottomarea{
+    max-width: 920px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.leftnav {
+    width: 200px;
+    float: left;
+}
+
+.howwework{
+    width: 730px;
+    float: left;
 }
