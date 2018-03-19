@@ -1,0 +1,288 @@
+div{
+    outline: 1px solid black;
+}
+
+.container{
+    width: 920px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.header{
+    background-color: blue;
+    height: 50px;
+}
+
+.header1{
+    background-color: yellow;
+    height: 25px;
+    width: 250px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 12.5px;
+}
+
+.header2{
+    background-color: yellow;
+    height: 25px;
+    width: 600px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 12.5px;
+}
+
+.green{
+    background-color: lime;
+    height: 200px;
+}
+
+.red{
+    background-color: red;
+    height: 350px;
+    width: 920px;
+    float: left;
+}
+
+.red1{
+    background-color: yellow;
+    width: 870px;
+    height:75px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+.red2{
+    background-color: yellow;
+    width: 273px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+.red3{
+    background-color: yellow;
+    width: 273px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+.red4{
+    background-color: yellow;
+    width: 273px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+.secondblue{
+    background-color: blue;
+    height: 715px;
+    float: left;
+    width: 920px;
+}
+
+.blue1{
+    background-color: yellow;
+    width: 870px;
+    height:50px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+.blue2{
+    background-color: yellow;
+    width: 198.75px;
+    height:180px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+.blue3{
+    background-color: yellow;
+    width: 198.75px;
+    height:180px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+.blue4{
+    background-color: yellow;
+    width: 198.75px;
+    height:180px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+.blue5{
+    background-color: yellow;
+    width: 198.75px;
+    height:180px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+.blue6{
+    background-color: yellow;
+    width: 198.75px;
+    height:180px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+.blue7{
+    background-color: yellow;
+    width: 198.75px;
+    height:180px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+.blue8{
+    background-color: yellow;
+    width: 198.75px;
+    height:180px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+.blue9{
+    background-color: yellow;
+    width: 198.75px;
+    height:180px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+.blue10{
+    background-color: yellow;
+    width: 198.75px;
+    height:180px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+.blue11{
+    background-color: yellow;
+    width: 198.75px;
+    height:180px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+.blue12{
+    background-color: yellow;
+    width: 198.75px;
+    height:180px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+.blue13{
+    background-color: yellow;
+    width: 198.75px;
+    height:180px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+.secondgreen{
+    background-color: lime;
+    height: 550px;
+    width: 920px;
+    float: left;
+}
+
+.green1{
+    background-color: yellow;
+    width: 870px;
+    height:75px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+.green2{
+    background-color: yellow;
+    height: 400px;
+    width: 273px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.green3{
+    background-color: yellow;
+    height: 400px;
+    width: 273px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.green4{
+    background-color: yellow;
+    height: 400px;
+    width: 273px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.reddy{
+    background-color: red;
+    height: 565px;
+    float: left;
+    width: 920px;
+}
+
+.reddy1{
+    background-color: yellow;
+    width: 870px;
+    height:50px;
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+.reddy2{
+    background-color: yellow;
+    height: 440px;
+    width: 525px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.reddy3{
+    background-color: yellow;
+    height: 250px;
+    width: 320px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.footer{
+    background-color: blue;
+    height: 50px;
+    float: left;
+    width: 920px;
+}
