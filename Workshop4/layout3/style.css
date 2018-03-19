@@ -1,0 +1,43 @@
+div{
+    outline: 1px solid black;
+}
+
+.container{
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    background-color: blue;
+    height: 150px;
+}
+
+.middle{
+    background-color: red;
+    height: 500px;
+}
+
+.panel1{
+    background-color: yellow;
+    float: left;
+    width: 400px;
+    height: 450px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.panel2{
+    background-color: yellow;
+    float: left;
+    width: 400px;
+    height: 450px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.footer{
+    background-color: lime;
+    height: 150px;
+}

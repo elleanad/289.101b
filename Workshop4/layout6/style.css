@@ -1,0 +1,28 @@
+div{
+    outline: 1px solid black;
+}
+
+.container{
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header1{
+    background-color: blue;
+    height: 150px;
+    width: 460px;
+    float: left;
+}
+
+.header2{
+    background-color: blue;
+    height: 150px;
+    width: 460px;
+    float: left;
+}
+
+.middle{
+    background-color: lime;
+    height: 150px;
+}

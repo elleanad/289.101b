@@ -1,0 +1,33 @@
+div{
+    outline: 1px;
+}
+
+body {
+    background-color:
+}
+
+.container{
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    width: 920px;
+    height: 200px;
+    background-color: blue;
+}
+
+.submenu{
+    width: 25%;
+    float: left;
+    height: 500px;
+    background-color: red;
+}
+
+.content{
+    width: 75%;
+    float: left;
+    height: 500px;
+    background-color: lime;
+}
