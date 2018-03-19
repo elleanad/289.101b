@@ -1,5 +1,5 @@
 div{
-    outline: 1px solid black;
+    outline:
 }
 
 .container{
@@ -25,4 +25,66 @@ div{
 .middle{
     background-color: lime;
     height: 150px;
+    float: left;
+    width: 920px;
+}
+
+.bottom{
+    background-color: red;
+    height: 500px;
+    float: left;
+}
+
+.box1{
+    background-color: yellow;
+    width: 175px;
+    height: 175px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+.box2{
+    background-color: yellow;
+    width: 175px;
+    height: 175px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+.box3{
+    background-color: yellow;
+    width: 175px;
+    height: 175px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+.box4{
+    background-color: yellow;
+    width: 175px;
+    height: 175px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+.box5{
+    background-color: yellow;
+    width: 395px;
+    height: 175px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+.box6{
+    background-color: yellow;
+    width: 395px;
+    height: 175px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 50px;
 }
