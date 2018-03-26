@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    background-color: ;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+div{
+    outline: 1px solid lime;
+}
+
+.header{
+    background-color: #2d303a;
+    height: 90px;
+    color: #FFFFFF;
+}
+
+.nav{
+    max-width: 950px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.logo{
+    float: left;
+    margin-top: 35px;
+    font-size: 1.4rem;
+}
+
+.salmon{
+    color: #f06c64;
+}
+
+.links{
+    float: right;
+    margin-top: 40px;
+    font-size: 0.75rem;
+    color: #4B4E61;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.links a:hover{
+    color: #f06c64;
+}
+
+.banner{
+    background-color: #f06c64;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.banner img{
+    max-width: 780px;
+    width: 90%;
+}
+
+.services{
+    background-color: white;
+    padding: 20px 0;
+    color: #666d89;
+    width: 90%;
+    height: 501px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* how to space out text */
+
+.ourservices{
+    float: left;
+    margin-top: 35px;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.ourservices p{
+    font-size: 1rem;   
+}
+
+
+.panel1{
+    width: 302px;
+    height: 87px;
+    float: left;
+    margin-top: 20px;
+}
+
+.panel2{
+    width: 303px;
+    height: 87px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.panel3{
+    width: 302px;
+    height: 87px;
+    float: left;
+    margin-left: 20px; 
+    margin-top: 20px;
+}
+
+.panel4{
+    width: 302px;
+    height: 87px;
+    float: left;
+    margin-left:; 
+    margin-top: 20px;
+}
+
+.panel5{
+    width: 303px;
+    height: 87px;
+    float: left;
+    margin-left: 20px; 
+    margin-top: 20px;
+}
+
+.panel6{
+    width: 302px;
+    height: 87px;
+    float: left;
+    margin-left: 20px; 
+    margin-top: 20px;
+}
