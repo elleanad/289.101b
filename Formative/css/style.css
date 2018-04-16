@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Lato')
+
+body{
+    background-color: ;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+div{
+    outline: 1px solid lime;
+}
+
