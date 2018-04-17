@@ -3,17 +3,15 @@
 body {
     background-color: #f48b20;
     margin: 0;
-    font-family: 'Karla', sans-serif;
-}
-
-.container{
     width: 920px;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Karla', sans-serif;
 }
 
 div{
-    outline: 1px;
+    outline: 1px
+        ;
 }
 
 .header{
@@ -83,6 +81,8 @@ div{
     float: left;
     margin-top: 20px;
     width: 409px;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 255.5px;
     padding-right: 255.5px;
     font-size: 1rem;
@@ -132,21 +132,23 @@ div{
 .dropdown:hover .dropdown-content {
     display: block;
 }
-    
+
+/* END OF HOME PAGE */
+
 .event{
-    margin-top: 100px;
     float: left;
     width: 520px;
     margin-left: 200px;
     margin-right: 200px;
 }    
 
-.eventtitle{
-    width: 184px;
+.title{
+    margin-top: 100px;
     font-weight: bold;
     font-size: 1.2rem;
-    margin-left: 168px;
-    margin-right: 168px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .eventimg img{
@@ -155,18 +157,19 @@ div{
     padding-top: 20px;
 }
 
-.eventtext{
-    width: 317px;
-    margin-left: 101.5px;
-    margin-right: 101.5px;
+.text{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
     padding-top: 20px;
+    text-align: center;
 }
 
 .eventbutton{
     padding-top: 30px;
     width: 180px;
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 170px;
+    margin-right: 170px;
 }
 
 .eventbutton button{
@@ -192,17 +195,9 @@ div{
     margin-right: 200px;
 }    
 
-.voltitle{
-    width: 99px;
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-left: 220.5px;
-    margin-right: 220.5px;
-}
-
 .vollink{
     width: 520px;
-    height: 520px;
+    height: 450px;
     padding-top: 20px;
 }
 
@@ -214,24 +209,23 @@ div{
     padding-top: 20px;
 }
 
-.volbutton{
     padding-top: 30px;
     width: 119px;
-    margin-left: 210.5px;
-    margin-right: 210.5px;
+    margin-left: 200.5px;
+    margin-right: 200.5px;
 }
 
-.volbutton button{
+.vol a{
     background: black;
     color: white;
     padding: 14px 25px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline-block; 
 }
 
-.volbutton button:hover{
+.vol a:hover{
     background-color: white;
     color: black;
 }
@@ -244,13 +238,6 @@ div{
     margin-right: 200px;
 }    
 
-.sparkstitle{
-    width: 99px;
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-left: 220.5px;
-    margin-right: 220.5px;
-}
 
 .sparksimg img{
     width: 520px;
@@ -259,31 +246,83 @@ div{
 }
 
 .sparkstext{
-    width: 317px;
+    width: 310px;
     text-align: center;
-    margin-left: 101.5px;
-    margin-right: 101.5px;
+    margin-left: 105px;
+    margin-right: 105px;
     padding-top: 20px;
 }
 
-.sparksbutton{
-    padding-top: 30px;
-    width: 119px;
-    margin-left: 210.5px;
-    margin-right: 210.5px;
-}
-
-.sparksbutton button{
+.sparks a{
     background: black;
     color: white;
     padding: 14px 25px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline-block; 
 }
 
-.sparksbutton button:hover{
+.sparks a:hover{
+    background-color: white;
+    color: black;
+}
+
+.news{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    float: left;
+    width: 520px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.newslink{
+    width: 160px;
+    height: 17px;
+    color: black;
+    text-decoration: none;
+    margin-left: 180px;
+    margin-right: 190px;
+}
+
+.news a:hover{
+    color: white;
+}
+
+.contact{
+    width: 520px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.contact title{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.wrapper{
+    width: 520px;
+    padding-top: 40px;
+}
+
+.wrapper input[type=text], .wrapper input[type=email], textarea{
+    width: 97.5%;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.wrapper a{
+    background: black;
+    color: white;
+    padding: 14px 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+}
+
+.wrapper a:hover{
     background-color: white;
     color: black;
 }
