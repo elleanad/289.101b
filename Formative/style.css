@@ -10,9 +10,10 @@ body {
 }
 
 div{
-    outline: 1px
-        ;
+    outline: 1px;
 }
+
+/*  GENERAL NAVIGATION  */
 
 .header{
     margin-top: 60px;
@@ -20,6 +21,14 @@ div{
     margin-right: auto;
     width: 920px;
     height: 80px;
+}
+
+.headers{
+    margin-top: 100px;
+    float: left;
+    width: 920px;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 
@@ -133,31 +142,44 @@ div{
     display: block;
 }
 
-/* END OF HOME PAGE */
-
-.event{
+.news{
+    padding-top: 100px;
+    padding-bottom: 50px;
     float: left;
     width: 520px;
     margin-left: 200px;
     margin-right: 200px;
-}    
-
-.title{
-    margin-top: 100px;
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
 }
 
-.eventimg img{
+.newslink{
+    width: 160px;
+    height: 17px;
+    color: black;
+    text-decoration: none;
+    margin-left: 180px;
+    margin-right: 190px;
+}
+
+.news a:hover{
+    color: white;
+}
+
+
+
+
+
+
+/*  HOME  */
+
+.title{
+    float: left;
     width: 520px;
-    height: 520px;
-    padding-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .text{
+    color: white;
     margin-left: auto;
     margin-right: auto;
     font-size: 1rem;
@@ -165,14 +187,21 @@ div{
     text-align: center;
 }
 
-.eventbutton{
-    padding-top: 30px;
-    width: 180px;
-    margin-left: 170px;
-    margin-right: 170px;
+.event{
+    float: left;
+    width: 520px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+}    
+
+.eventimg img{
+    width: 520px;
+    height: 520px;
+    padding-top: 20px;
 }
 
-.eventbutton button{
+.event a{
     background: black;
     color: white;
     padding: 14px 25px;
@@ -180,9 +209,12 @@ div{
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    margin-left: 155px;
+    margin-right: 155px;
+    margin-top: 20px;
 }
 
-.eventbutton button:hover{
+.event a:hover{
     background-color: white;
     color: black;
 }
@@ -209,12 +241,6 @@ div{
     padding-top: 20px;
 }
 
-    padding-top: 30px;
-    width: 119px;
-    margin-left: 200.5px;
-    margin-right: 200.5px;
-}
-
 .vol a{
     background: black;
     color: white;
@@ -222,7 +248,10 @@ div{
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    display: inline-block; 
+    display: inline-block;
+    margin-left: 188.5px;
+    margin-right: 188.5px;
+    margin-top: 20px;
 }
 
 .vol a:hover{
@@ -231,25 +260,17 @@ div{
 }
 
 .sparks{
-    margin-top: 100px;
     float: left;
     width: 520px;
+    height: 770px;
     margin-left: 200px;
     margin-right: 200px;
+    margin-top: 100px;
 }    
-
 
 .sparksimg img{
     width: 520px;
     height: 500px;
-    padding-top: 20px;
-}
-
-.sparkstext{
-    width: 310px;
-    text-align: center;
-    margin-left: 105px;
-    margin-right: 105px;
     padding-top: 20px;
 }
 
@@ -260,7 +281,10 @@ div{
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    display: inline-block; 
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 190px;
+    margin-right: 190px;
 }
 
 .sparks a:hover{
@@ -268,42 +292,424 @@ div{
     color: black;
 }
 
-.news{
-    padding-top: 100px;
-    padding-bottom: 50px;
+
+
+
+
+/*  MIXBOOK   */
+
+
+
+
+
+
+
+/*  INTERVIEWS   */
+
+
+.interviewsparks{
+    float: left;
+    width: 520px;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 2rem;
+    font-weight: 600;
+}    
+
+
+
+
+
+
+
+
+/*  SPARKS INTERVIEW  */
+
+.sparkint{
     float: left;
     width: 520px;
     margin-left: 200px;
     margin-right: 200px;
 }
 
-.newslink{
-    width: 160px;
-    height: 17px;
-    color: black;
-    text-decoration: none;
-    margin-left: 180px;
-    margin-right: 190px;
-}
 
-.news a:hover{
+.sparkint h1{
     color: white;
+    font-size: 0.9rem;
+    text-align: center;
+    font-style: italic;
+    padding-top: 30px;
 }
 
-.contact{
+.sparkpic{
     width: 520px;
+}
+
+p{
+    color: black;
+    text-align: center;
+    margin: 0px;
+}
+
+.sparkpic img{
+    width: 520px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sparktitle{
+    color: white;
+    width: 57px;
+}
+
+.sparks a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.sparksc{
+    color: white;
+    width: 520px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/*  PASS THE AUX  */
+
+.ptatext{
+    color: white;
+    float: left;
+    width: 920px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#audioplayer{
+    width: 480px;
+    height: 60px;
+    margin: 50px auto auto auto;
+    padding-top: 100px;
+}
+
+#pButton{
+    height:60px; 
+    width: 60px;
+    border: none;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    outline:none;
+}
+
+.play{background: url('http://www.alexkatz.me/codepen/img/play.png') ;}
+.pause{background: url('http://www.alexkatz.me/codepen/img/pause.png') ;}
+
+#timeline{
+    width: 400px;
+    height: 20px;
+    margin-top: 20px;
+    float: left;
+    border-radius: 15px;
+    background: rgba(0,0,0,.3);
+  
+}
+#playhead{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-top: 1px;
+    background: rgba(0, 0, 0,1);
+
+}
+
+
+
+
+
+
+/*  EVENTS   */
+
+.event1{
+    width: 520px;
+    height: 720px;
+    float: left;
+    padding-top: 20px;
     margin-left: 200px;
     margin-right: 200px;
 }
 
-.contact title{
-    padding-top: 100px;
+.pic1{
+    width: 520px;
+    height: 520px;
+}
+
+.pic1 img{
+    width: 520px;
+    height: 520px;
+}
+
+.title1{
     text-align: center;
+    font-size: 2rem;
+    padding-top: 20px;
+}
+
+.event1 a{
+    background: black;
+    color: white;
+    padding: 14px 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 155px;
+    margin-right: 155px;
+    margin-top: 20px;
+}
+
+.event1 a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.moreevents{
+    float: left;
+    width: 920px;
+    height: 440px;
+    margin-top: 100px;
+}
+
+.pastevents{
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.event2{
+    float: left;
+    width: 280px;
+    height: 398px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.pic2{
+    width: 280px;
+    height: 280px;
+}
+
+.pic2 img{
+    width: 280px;
+    height: 280px;
+}
+
+.pic2 img:hover{
+    opacity: 0.5;
+}
+
+.title2{
+    text-align: center;
+    padding-top: 20px
+}
+
+.event2 a{
+    background: black;
+    color: white;
+    padding: 14px 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 54px;
+    margin-top: 20px;
+}
+
+.event2 a:hover{
+    background-color: white;
+    color: black;
+}
+
+.event3{
+    float: left;
+    width: 280px;
+    height: 398px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.pic3{
+    width: 280px;
+    height: 280px;
+}
+
+.pic3 img{
+        width: 280px;
+    height: 280px;
+}
+
+.title3{
+    text-align: center;
+    padding-top: 20px
+}
+
+.event3 a{
+    background: black;
+    color: white;
+    padding: 14px 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 54px;
+    margin-top: 20px;
+}
+
+.event3 a:hover{
+    background-color: white;
+    color: black;
+}
+
+.event4{
+    float: left;
+    width: 280px;
+    height: 398px;
+    margin-top: 20px;
+}
+
+.pic4{
+    width: 280px;
+    height: 280px;
+}
+
+.pic4 img{
+        width: 280px;
+    height: 280px;
+}
+
+.title4{
+    text-align: center;
+    padding-top: 20px
+}
+
+.event4 a{
+    background: black;
+    color: white;
+    padding: 14px 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 54px;
+    margin-top: 20px;
+}
+
+.event4 a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+/*  ABOUT  */
+
+
+.profiles{
+    float: left;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 662px;
+}
+
+.joni{
+    color: white;
+    width: 520px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.joniname{
+    float: left;
+    width: 250px;
+    text-align: center;
+    font-size:2rem;
+}
+
+.joni img{
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+}
+
+.joni p{
+    color: black;
+}
+
+
+.elle{
+    color: white;
+    width: 520px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.elle img{
+    float: left;
+    width: 250px;
+        margin-right: 20px;
+}
+
+.ellename{
+    float: left;
+    width: 250px;
+    text-align: center;
+    font-size:2rem;
+}
+
+.elle p{
+    color: black;
+}
+
+
+
+
+
+
+
+
+/*  CONTACT  */
+
+.contact{
+    float: left;
+    width: 520px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 50px;
 }
 
 .wrapper{
     width: 520px;
-    padding-top: 40px;
+    float: left;
+    
 }
 
 .wrapper input[type=text], .wrapper input[type=email], textarea{
@@ -320,9 +726,80 @@ div{
     text-align: center;
     text-decoration: none;
     display: inline-block; 
+    margin-left: 207px;
+    margin-right: 207px;
 }
 
 .wrapper a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+/*  NEWSLETTER  */
+
+.container {
+    padding: 20px;
+}
+
+.bg{
+    background-image:url("img/newsletter.jpg")
+    height: 100%; 
+}
+
+.bg img{
+    width: 920px;
+}
+
+h2{
+ text-align: center;
+}
+
+.bg a{
+    float: left;
+    width: 920px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background: black;
+    color: white;
+    padding: 14px 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 380px;
+}
+
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
     background-color: white;
     color: black;
 }
