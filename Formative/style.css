@@ -10,7 +10,7 @@ body {
 }
 
 div{
-    outline: 1px;
+    outline: 1px solid yellow;
 }
 
 /*  GENERAL NAVIGATION  */
