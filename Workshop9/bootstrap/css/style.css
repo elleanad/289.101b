@@ -1,14 +1,18 @@
 body{
 }
 
+div{
+    outline: 3px solid white;
+    
+}
 .blue{
     background-color: cornflowerblue;
-    height: 40px;
+    min-height: 100px;
 }
 
 .green{
     background-color: greenyellow;
-    height: 200px;
+    min-height:  height: 200px;
 }
 
 .orange{
@@ -18,10 +22,23 @@ body{
 
 .grey{
     background-color: lightgrey;
-    height: 125px;
+    min-height: 140px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
 }
 
 .maroon{
     background-color: maroon;
     min-height: 200px;
+}
+
+.pink{
+    background-color: hotpink;
+    min-height: 140px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
 }
