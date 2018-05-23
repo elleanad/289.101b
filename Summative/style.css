@@ -1,0 +1,116 @@
+body{
+    background-color: #15384E;
+    margin: 0;
+    width: 1440px;
+    height: auto;
+}
+
+div{
+
+}
+
+.header{
+    background-color:#15384E;
+    width: auto;
+    height: 63px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo{
+    float: left;
+    width: 213px;
+    height: 63px;
+}
+
+.links{
+    float: right;
+    height: 43px;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.links a:hover{
+    color: skyblue;
+}
+
+.banner{
+    float: left;
+    height: 600px;
+    width: 1440px;
+    overflow:hidden;
+    margin:0;
+}
+
+.banner img{
+    object-fit: cover;
+    height: 600px;
+    width: 1440px;
+}
+
+.img1{
+    width: 480px;
+    height: 271px;
+    float: left;
+    background-color: aliceblue;
+}
+
+.img1 img{
+    width: 480px;
+    height: 271px;
+    float: left;
+    object-fit: cover;
+}
+
+.img2{
+    width: 480px;
+    height: 271px;
+    float: left;
+}
+
+img2 img{
+    width: 480px;
+    height: 271px;
+    float: left;
+    object-fit: cover;
+}
+
+.img3{
+    width: 480px;
+    height: 271px;
+    float: left;
+}
+
+.footer{
+    float: left;
+    width: 1440px;
+    height: 280px;
+}
+
+.quote{
+    color: white;
+    text-align: center;
+}
+
+.productp{
+    float: left;
+    background-color: turquoise;
+    height: 961px;
+    width: 720px;
+}
+
+.productt{
+    float: left;
+    background-color: antiquewhite;
+    height: 961px;
+    width: 720px;
+}
