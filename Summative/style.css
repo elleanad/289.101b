@@ -69,6 +69,10 @@ div{
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+    background-image: url(img/product.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 180px;
 }
 
 .img1 img{
@@ -76,8 +80,9 @@ div{
     float: left;
     object-fit: cover;
 }
-
-
+.textoverlay{
+    margin-top:50px;
+}
 
 .img2{
     width: 33.33%;
@@ -87,7 +92,7 @@ div{
     text-align: center;
 }
 
-img2 img{
+.img2 img{
     width: 100%;
     float: left;
     object-fit: cover;
@@ -118,18 +123,10 @@ img2 img{
     color: white;
     text-align: center;
     font-size: 2rem;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
-.text 1{
-    color: black;
-    text-decoration: none;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.text1:hover{
-    color: white;
-}
 
 
 
@@ -138,17 +135,42 @@ img2 img{
 .productp{
     float: left;
     background-color: turquoise;
-    height: 961px;
-    width: 720px;
+    width: 50%;
+    height: 20px;
+}
+
+.sparks a{
+    background: black;
+    color: white;
+    padding: 14px 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 190px;
+    margin-right: 190px;
 }
 
 .productt{
     float: left;
     background-color: antiquewhite;
-    height: 961px;
-    width: 720px;
+    width: 50%;
+    height: auto;
 }
 
+.sparks a{
+    background: black;
+    color: white;
+    padding: 14px 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 190px;
+    margin-right: 190px;
+}
 
 
 /* OUR TEAM */
@@ -157,3 +179,40 @@ img2 img{
 
 
 /* CONTACT */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .img1{height:100px;}
+    .textoverlay{
+        margin-top:20px;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .img1{height:200px;}
+    .textoverlay{
+        margin-top:50px;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .img1{height:300px;}
+    .textoverlay{
+        margin-top:100px;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .img1{height:400px;}
+    .textoverlay{
+        margin-top:200px;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){.img1{height:100px;}
+}
