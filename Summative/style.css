@@ -1,17 +1,16 @@
 body{
     background-color: #15384E;
     margin: 0;
-    width: 1440px;
+    width: auto;
     height: auto;
 }
 
 div{
-
+    outline: 1px solid yellow;
 }
 
 .header{
     background-color:#15384E;
-    width: auto;
     height: 63px;
     position: fixed;
     top: 0;
@@ -22,6 +21,7 @@ div{
     float: left;
     width: 213px;
     height: 63px;
+    margin-left: 20px;
 }
 
 .links{
@@ -43,10 +43,14 @@ div{
     color: skyblue;
 }
 
+
+
+/* HOME PAGE */
+
 .banner{
     float: left;
     height: 600px;
-    width: 1440px;
+    width: 100%;
     overflow:hidden;
     margin:0;
 }
@@ -54,50 +58,82 @@ div{
 .banner img{
     object-fit: cover;
     height: 600px;
-    width: 1440px;
+    width: 100%;
 }
 
 .img1{
-    width: 480px;
-    height: 271px;
+    width: 33.33%;
+    height: auto;
     float: left;
-    background-color: aliceblue;
+    color: yellow;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .img1 img{
-    width: 480px;
-    height: 271px;
+    width: 100%;
     float: left;
     object-fit: cover;
 }
 
+
+
 .img2{
-    width: 480px;
-    height: 271px;
+    width: 33.33%;
+    height: auto;
     float: left;
+    color: yellow;
+    text-align: center;
 }
 
 img2 img{
-    width: 480px;
+    width: 100%;
     float: left;
+    object-fit: cover;
 }
 
 .img3{
-    width: 480px;
-    height: 271px;
+    width: 33.33%;
+    height: auto;
     float: left;
+    color: yellow;
+    text-align: center;
 }
+
+.img3 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 
 .footer{
     float: left;
-    width: 1440px;
-    height: 280px;
+    width: 100%;
+    padding-top: 50px;
 }
 
 .quote{
     color: white;
     text-align: center;
+    font-size: 2rem;
 }
+
+.text 1{
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.text1:hover{
+    color: white;
+}
+
+
+
+/* PRODUCTS */
 
 .productp{
     float: left;
@@ -112,3 +148,12 @@ img2 img{
     height: 961px;
     width: 720px;
 }
+
+
+
+/* OUR TEAM */
+
+
+
+
+/* CONTACT */

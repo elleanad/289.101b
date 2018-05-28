@@ -1,0 +1,44 @@
+body{
+}
+
+div{
+    outline: 3px solid white;
+    
+}
+.blue{
+    background-color: cornflowerblue;
+    min-height: 100px;
+}
+
+.green{
+    background-color: greenyellow;
+    min-height: 200px;
+}
+
+.orange{
+    background-color: orange;
+    min-height: 200px;
+}
+
+.grey{
+    background-color: lightgrey;
+    min-height: 140px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.maroon{
+    background-color: maroon;
+    min-height: 200px;
+}
+
+.pink{
+    background-color: hotpink;
+    min-height: 140px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
