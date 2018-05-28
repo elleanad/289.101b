@@ -201,6 +201,11 @@ div{
     .textoverlay{
         margin-top:120px;
     }
+    
+    .video{
+         width: 100%;
+        height:250px;
+    }
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -223,6 +228,11 @@ div{
     .img3{
         width: 100%;
         height:300px;
+    }
+    
+     .video{
+         width: 50%;
+        height:200px;
     }
 } 
 
@@ -250,6 +260,10 @@ div{
     
 /*  adjust text overlay for img 3 only? */
 
+     .video{
+         width: 50%;
+        height:250px;
+    }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -269,6 +283,11 @@ div{
     }
     .img3{
         width: 33.33%;
+        height:250px;
+    }
+    
+     .video{
+         width: 33.33%;
         height:250px;
     }
 } 
@@ -291,4 +310,20 @@ div{
         width: 33.33%;
         height:250px;
     }
+    
+     .video{
+         width: 33.33%;
+        height:250px;
+    }
+}
+
+
+/* Watch the Documentary */
+
+.videos{
+    float: left;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
 }
