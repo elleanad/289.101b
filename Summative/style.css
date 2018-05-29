@@ -321,9 +321,9 @@ div{
 /* Watch the Documentary */
 
 .videos{
-    float: left;
+    float: inherit;
     height: auto;
     width: 100%;
     overflow: hidden;
-    margin: 0;
+   
 }
