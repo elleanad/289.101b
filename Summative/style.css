@@ -215,12 +215,10 @@ div{
     float: left;
     width: 100%;
     height: auto;
-    
 }
 
 .paper{
-    width: 50%;
-    float: left;
+    width: 100%;
     text-align: center;
     background-image: url(img/Paper-2.jpg);
     background-repeat: no-repeat;
@@ -229,8 +227,7 @@ div{
 }
 
 .tech{
-    float: left;
-    width: 50%;
+    width: 100%;    
     text-align: center;
     background-image: url(img/Tech.jpg);
     background-repeat: no-repeat;
@@ -312,27 +309,89 @@ div{
     margin-right: auto;
 }
 
-    .p1{
+.p1{
     float:left;
     width: 100%;
 }
 
-    .p2{
+.p2{
     float:left;
     width: 100%;
     
 }
 
-    .p3{
+.p3{
     float:left;
     width: 100%;
 }
 
-    .p4{
+.p4{
     float:left;
     width: 100%;
     
 }
+
+.techbanner{
+    width: 100%;
+    height: auto;
+    float: left;
+    color: yellow;
+    text-align: center;
+    background-image: url(img/Tech.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 180px;
+}
+
+.alltech{
+    float: left;
+    background-color: white;
+    width: 100%;
+}
+
+.t1{
+    float:left;
+    width: 100%;
+}
+
+.t2{
+    float:left;
+    width: 100%;
+    
+}
+
+.t3{
+    float:left;
+    width: 100%;
+}
+
+.t4{
+    float:left;
+    width: 100%;
+    
+}
+
+.t5{
+    float:left;
+    width: 100%;
+}
+
+.t6{
+    float:left;
+    width: 100%;
+    
+}
+
+.t7{
+    float:left;
+    width: 100%;
+}
+
+.t8{
+    float:left;
+    width: 100%;
+}
+
 /* OUR TEAM */
 
 
@@ -341,6 +400,9 @@ div{
 
 
 /* CONTACT */
+
+
+
 .left_icon{
     
     height: auto;
@@ -436,7 +498,7 @@ input[type=submit] {
 
 /* Submit */
 .submit{
-       width: 100%;
+    width: 100%;
     height: auto;
     float: left;
     color: ;
@@ -447,13 +509,7 @@ input[type=submit] {
     height: 180px;
 }
 
-<<<<<<< HEAD
 
-/* RESPONSIVE LAYOUT */
-
-
-=======
->>>>>>> aa66895b41b515bccd0926db222fe6c7b4740262
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
         
@@ -489,6 +545,30 @@ input[type=submit] {
          width: 100%;
         height:250px;
     }
+        .paper{
+        width: 100%;
+        height: 350px;
+    }
+    
+    .tech{
+        width: 100%;
+        height: 350px;        
+    }  
+    
+    .paper a{
+        top: 20%;
+        left: 50%;
+        transform: translate(-25%, -50%);
+        -ms-transform: translate(-25%, -50%);
+    }
+        
+    .tech a{
+        top: 48%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
 <<<<<<< HEAD
      .submit{
         height: 600px
@@ -515,6 +595,49 @@ input[type=submit] {
     float:left;
     width: 100%;
     
+}
+    
+    .t1{
+    float:left;
+    width: 100%;
+}
+
+.t2{
+    float:left;
+    width: 100%;
+    
+}
+
+.t3{
+    float:left;
+    width: 100%;
+}
+
+.t4{
+    float:left;
+    width: 100%;
+    
+}
+
+.t5{
+    float:left;
+    width: 100%;
+}
+
+.t6{
+    float:left;
+    width: 100%;
+    
+}
+
+.t7{
+    float:left;
+    width: 100%;
+}
+
+.t8{
+    float:left;
+    width: 100%;
 }
 >>>>>>> 998c4421246c56a6e6576041aab601e6bcc63c0b
 } 
@@ -618,6 +741,49 @@ input[type=submit] {
     width: 100%;
     
 }
+    
+    .t1{
+    float:left;
+    width: 100%;
+}
+
+.t2{
+    float:left;
+    width: 100%;
+    
+}
+
+.t3{
+    float:left;
+    width: 100%;
+}
+
+.t4{
+    float:left;
+    width: 100%;
+    
+}
+
+.t5{
+    float:left;
+    width: 100%;
+}
+
+.t6{
+    float:left;
+    width: 100%;
+    
+}
+
+.t7{
+    float:left;
+    width: 100%;
+}
+
+.t8{
+    float:left;
+    width: 100%;
+}
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -710,7 +876,51 @@ input[type=submit] {
     width: 100%;
     
 }
+  
+    .t1{
+    float:left;
+    width: 100%;
+}
+
+.t2{
+    float:left;
+    width: 100%;
     
+}
+
+.t3{
+    float:left;
+    width: 100%;
+}
+
+.t4{
+    float:left;
+    width: 100%;
+    
+}
+
+.t5{
+    float:left;
+    width: 100%;
+}
+
+.t6{
+    float:left;
+    width: 100%;
+    
+}
+
+.t7{
+    float:left;
+    width: 100%;
+}
+
+.t8{
+    float:left;
+    width: 100%;
+}
+    
+
 /*  adjust text overlay for img 3 only? */
 
      .video{
@@ -728,6 +938,7 @@ input[type=submit] {
         body{
         background-color: green;
     }
+    
     .textoverlay{
         margin-top:120px;
     }
@@ -768,6 +979,28 @@ input[type=submit] {
         -ms-transform: translate(-20%, -60%);
     }
     
+    .paper{
+        width: 50%;
+        float: left;;
+        height: 1000px;
+    }
+    
+    .paper a{
+        top: 50%;
+        left: 25%;
+        transform: translate(-25%, -50%);
+        -ms-transform: translate(-25%, -50%);
+        font-size: 50px;
+    }
+        
+    .tech a{
+        top: 50%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        font-size: 50px;
+    }
+    
      .video{
          width: 33.33%;
         height:250px;
@@ -775,6 +1008,49 @@ input[type=submit] {
     
      .submit{
         height: 700px
+    }
+    
+    .t1{
+        float:left;
+        width: 50%;
+    }
+
+    .t2{
+        float:left;
+        width: 50%;
+
+    }
+
+    .t3{
+        float:left;
+        width: 50%;
+    }
+
+    .t4{
+        float:left;
+        width: 50%;
+
+    }
+
+    .t5{
+        float:left;
+        width: 50%;
+    }
+
+    .t6{
+        float:left;
+        width: 50%;
+
+    }
+
+    .t7{
+        float:left;
+        width: 50%;
+    }
+
+    .t8{
+        float:left;
+        width: 50%;
     }
 } 
 
@@ -849,7 +1125,6 @@ input[type=submit] {
         float:left;
         width: 50%;
     }
->>>>>>> 998c4421246c56a6e6576041aab601e6bcc63c0b
 
     .p2{
         float:left;
@@ -859,13 +1134,55 @@ input[type=submit] {
 
     .p3{
         float:left;
-        width: 50%;
+    width: 50%;
     }
 
     .p4{
         float:left;
-        width: 50%;
+    width: 50%;
 
     }
     
+    .t1{
+        float:left;
+        width: 50%;
+    }
+
+    .t2{
+        float:left;
+        width: 50%;
+
+    }
+
+    .t3{
+        float:left;
+        width: 50%;
+    }
+
+    .t4{
+        float:left;
+        width: 50%;
+
+    }
+
+    .t5{
+        float:left;
+        width: 50%;
+    }
+
+    .t6{
+        float:left;
+        width: 50%;
+
+    }
+
+    .t7{
+        float:left;
+        width: 50%;
+    }
+
+    .t8{
+        float:left;
+        width: 50%;
+    }
 }
