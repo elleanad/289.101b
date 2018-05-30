@@ -8,7 +8,13 @@ body{
     font-family:serif
 }
 
+<<<<<<< HEAD
 
+=======
+div{
+    outline: 1px solid yellow;
+}
+>>>>>>> 4787449acf0dd230a7be2817edbd0fe8e0777339
 
 .header{
     background-color:#15384E;
@@ -72,7 +78,6 @@ body{
   
 }
 
-
 .img1{
     width: 100%;
     height: auto;
@@ -125,53 +130,86 @@ body{
 
 
 
-
 /* PRODUCTS */
 
-.productp{
-    float: left;
-    background-color: turquoise;
-    width: 50%;
-    height: 20px;
-}
-
-/* apply to product button */
-.sparks a{
-    background: black;
-    color: white;
-    padding: 14px 25px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 190px;
-    margin-right: 190px;
-}
-
-.productt{
-    float: left;
-    background-color: antiquewhite;
-    width: 50%;
+.products{
+    width: 100%;
     height: auto;
 }
 
-/* apply to product button */
-.sparks a{
-    background: black;
+.paper{
+    width: 50%;
+    float: left;
+    text-align: center;
+    background-image: url(img/Paper-2.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    height: 1080px;
+}
+
+.tech{
+    float: left;
+    width: 50%;
+    text-align: center;
+    background-image: url(img/Tech.jpg);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: center;
+    height: 1080px;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.paper a {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-25%, -25%);
+    -ms-transform: translate(-25%, -25%);
+    background-color: #555;
     color: white;
-    padding: 14px 25px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 190px;
-    margin-right: 190px;
+    display: inline-block;font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.paper a:hover {
+    background-color: black;
+}
+
+/* apply to product button */
+.tech a{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tech a:hover {
+    background-color: black;
 }
 
 
+
 /* OUR TEAM */
+
+
 
 
 
@@ -180,6 +218,13 @@ body{
 
 
 
+<<<<<<< HEAD
+
+/* RESPONSIVE LAYOUT */
+
+
+=======
+>>>>>>> aa66895b41b515bccd0926db222fe6c7b4740262
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     
