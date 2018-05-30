@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
 body{
     background-color: #15384E;
     margin: 0;
     width: auto;
     height: auto;
+    font-family:sans-serif
 }
 
+<<<<<<< HEAD
+
+=======
 div{
     outline: 1px solid yellow;
 }
+>>>>>>> 4787449acf0dd230a7be2817edbd0fe8e0777339
 
 .header{
     background-color:#15384E;
@@ -29,6 +36,7 @@ div{
     height: 43px;
     margin-right: 20px;
     padding-top: 20px;
+   
 }
 
 .links a{
@@ -65,6 +73,8 @@ div{
     margin-top: 50px;
     text-decoration: none;
     color: lightgoldenrodyellow;
+    
+    
   
 }
 
@@ -80,6 +90,29 @@ div{
     height: 180px;
 }
 
+.img1 a {
+    position: absolute;
+    top: 66%;
+    left: 40%;
+    transform: translate(-25%, -50%);
+    -ms-transform: translate(-25%, -50%);
+    background-color: #15384E;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 20px;
+    padding: 1px 24px;
+    cursor: pointer;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+
+.img1 a:hover {
+    opacity: 1;
+}
+
 .img2{
     width: 100%;
     height: auto;
@@ -90,6 +123,29 @@ div{
     background-repeat: no-repeat;
     background-size:cover;
     height: 180px;
+}
+
+.img2 a {
+    position: absolute;
+    top: 82%;
+    left: 40%;
+    transform: translate(-25%, -50%);
+    -ms-transform: translate(-25%, -50%);
+    background-color: #15384E;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+
+.img2 a:hover {
+    opacity: 1;
 }
 
 .img3{
@@ -103,6 +159,39 @@ div{
     background-size:cover;
     height: 180px;
 }
+
+.img3 a {
+    position: absolute;
+    top: 96%;
+    left: 33%;
+    transform: translate(-25%, -50%);
+    -ms-transform: translate(-25%, -50%);
+    background-color: #15384E;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 1px 21px;
+    cursor: pointer;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+
+.img3 a:hover {
+    opacity: 1;
+}
+
+/* WATCH DOCUMENTARY */
+
+.videos{
+    float: inherit;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
 
 .footer{
     float: left;
@@ -123,30 +212,27 @@ div{
 /* PRODUCTS */
 
 .products{
+    float: left;
     width: 100%;
     height: auto;
 }
 
 .paper{
-    width: 50%;
-    float: left;
+    width: 100%;
     text-align: center;
     background-image: url(img/Paper-2.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    height: 1080px;
+    background-size: cover;
+    height: 950px;
 }
 
 .tech{
-    float: left;
-    width: 50%;
+    width: 100%;    
     text-align: center;
     background-image: url(img/Tech.jpg);
     background-repeat: no-repeat;
-    background-size:auto;
-    background-position: center;
-    height: 1080px;
+    background-size:cover;
+    height: 950px;
 }
 
 /* Style the button and place it in the middle of the container/image */
@@ -154,23 +240,26 @@ div{
     position: absolute;
     top: 50%;
     left: 25%;
-    transform: translate(-25%, -25%);
-    -ms-transform: translate(-25%, -25%);
-    background-color: #555;
+    transform: translate(-25%, -50%);
+    -ms-transform: translate(-25%, -50%);
+    background-color:orangered;
     color: white;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    display: inline-block;font-size: 16px;
+    display: inline-block;
+    font-size: 30px;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 50px;
+    opacity: 0.5;
 }
 
 .paper a:hover {
-    background-color: black;
+    opacity: 1;
 }
+
 
 /* apply to product button */
 .tech a{
@@ -179,23 +268,129 @@ div{
     left: 75%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: orangered;
     color: white;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    display: inline-block;font-size: 16px;
+    display: inline-block;
+    font-size: 30px;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 50px;
+        opacity: 0.5;
 }
 
 .tech a:hover {
-    background-color: black;
+    opacity: 1;
 }
 
 
+/* PAPER PRODUCTS */
+
+.paperbanner{
+    width: 100%;
+    height: auto;
+    float: left;
+    color: yellow;
+    text-align: center;
+    background-image: url(img/Paper_Products.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 180px;
+}
+
+.allpaper{
+    float: left;
+    background-color: white;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p1{
+    float:left;
+    width: 100%;
+}
+
+.p2{
+    float:left;
+    width: 100%;
+    
+}
+
+.p3{
+    float:left;
+    width: 100%;
+}
+
+.p4{
+    float:left;
+    width: 100%;
+    
+}
+
+.techbanner{
+    width: 100%;
+    height: auto;
+    float: left;
+    color: yellow;
+    text-align: center;
+    background-image: url(img/Tech.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 180px;
+}
+
+.alltech{
+    float: left;
+    background-color: white;
+    width: 100%;
+}
+
+.t1{
+    float:left;
+    width: 100%;
+}
+
+.t2{
+    float:left;
+    width: 100%;
+    
+}
+
+.t3{
+    float:left;
+    width: 100%;
+}
+
+.t4{
+    float:left;
+    width: 100%;
+    
+}
+
+.t5{
+    float:left;
+    width: 100%;
+}
+
+.t6{
+    float:left;
+    width: 100%;
+    
+}
+
+.t7{
+    float:left;
+    width: 100%;
+}
+
+.t8{
+    float:left;
+    width: 100%;
+}
 
 /* OUR TEAM */
 
@@ -208,15 +403,128 @@ div{
 
 
 
+.left_icon{
+    
+    height: auto;
+    float: left;
+    color: white;
+    padding-left: 10%;
+    padding-top: 10%;
+    
+}
+
+.email_icon{
+    
+    height: auto;
+    float: left;
+    color: white;
+   padding-left: 30%;
+    padding-top: 10%
+}
+
+.phone_icon{
+    height: auto;
+    float: left;
+    color: white;
+    padding-top: 10%;
+    padding-left: 60%;
+}
+
+.submit_btn{
+    color: white;
+    text-decoration:none;
+    float: left;
+     width: 100px;
+    padding-left: 55px;
+    margin: 25px;
+    background-color: white
+}
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+ 
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+    color: white;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+    color: white
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+    
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/* Submit */
+.submit{
+    width: 100%;
+    height: auto;
+    float: left;
+    color: ;
+    text-align: center;
+    background-image: url(img/contatc_banner.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 180px;
+}
+
+<<<<<<< HEAD
+=======
+
 <<<<<<< HEAD
 
 /* RESPONSIVE LAYOUT */
 
+>>>>>>> 68aeaf61cc25493711b7bec48fa6988245033874
 
-=======
->>>>>>> aa66895b41b515bccd0926db222fe6c7b4740262
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+        
+    body{
+        background-color: red;
+    }
     
     .banner{
         width: 100%;
@@ -239,20 +547,118 @@ div{
     }
     
     .textoverlay{
-        margin-top:120px;
+        margin-top: 120px;
     }
     
     .video{
          width: 100%;
         height:250px;
     }
+        .paper{
+        width: 100%;
+        height: 350px;
+    }
+    
+    .tech{
+        width: 100%;
+        height: 350px;        
+    }  
+    
+    .paper a{
+        top: 20%;
+        left: 50%;
+        transform: translate(-25%, -50%);
+        -ms-transform: translate(-25%, -50%);
+    }
+        
+    .tech a{
+        top: 48%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+<<<<<<< HEAD
+     .submit{
+        height: 600px
+    }
+=======
+    
+    .p1{
+    float:left;
+    width: 100%;
+}
+
+    .p2{
+    float:left;
+    width: 100%;
+    
+}
+
+    .p3{
+    float:left;
+    width: 100%;
+}
+
+    .p4{
+    float:left;
+    width: 100%;
+    
+}
+    
+    .t1{
+    float:left;
+    width: 100%;
+}
+
+.t2{
+    float:left;
+    width: 100%;
+    
+}
+
+.t3{
+    float:left;
+    width: 100%;
+}
+
+.t4{
+    float:left;
+    width: 100%;
+    
+}
+
+.t5{
+    float:left;
+    width: 100%;
+}
+
+.t6{
+    float:left;
+    width: 100%;
+    
+}
+
+.t7{
+    float:left;
+    width: 100%;
+}
+
+.t8{
+    float:left;
+    width: 100%;
+}
+>>>>>>> 998c4421246c56a6e6576041aab601e6bcc63c0b
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    
+        
+    body{
+        background-color: orange;
+    }
      .textoverlay{
-        margin-top:110px;
+        margin-top: 90px;
     }   
     
     .img1{
@@ -260,33 +666,162 @@ div{
         height:200px;
     }
     
+    .img1 a{
+        top: 60%;
+        left: 20%;
+        transform: translate(-20%, -60%);
+        -ms-transform: translate(-20%, -60%);
+    }
+    
     .img2{
         width: 50%;
         height:200px;
     }
 
+    .img2 a{
+        top: 60%;
+        left: 68%;
+        transform: translate(-20%, -60%);
+        -ms-transform: translate(-20%, -60%);
+    }
+    
     .img3{
         width: 100%;
         height:300px;
+    }
+    
+    .img3 a{
+        top: 82%;
+        left: 40%;
+        transform: translate(-20%, -60%);
+        -ms-transform: translate(-20%, -60%);
     }
     
      .video{
          width: 50%;
         height:200px;
     }
+     .submit{
+        height: 250px
+    }
+    
+    .paper{
+        width: 100%;
+        height: 350px;
+    }
+    
+    .tech{
+        width: 100%;
+        height: 350px;        
+    }  
+    
+    .paper a{
+        top: 20%;
+        left: 50%;
+        transform: translate(-25%, -50%);
+        -ms-transform: translate(-25%, -50%);
+    }
+        
+    .tech a{
+        top: 48%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+    
+    .p1{
+    float:left;
+    width: 100%;
+}
+
+    .p2{
+    float:left;
+    width: 100%;
+    
+}
+
+    .p3{
+    float:left;
+    width: 100%;
+}
+
+    .p4{
+    float:left;
+    width: 100%;
+    
+}
+    
+    .t1{
+    float:left;
+    width: 100%;
+}
+
+.t2{
+    float:left;
+    width: 100%;
+    
+}
+
+.t3{
+    float:left;
+    width: 100%;
+}
+
+.t4{
+    float:left;
+    width: 100%;
+    
+}
+
+.t5{
+    float:left;
+    width: 100%;
+}
+
+.t6{
+    float:left;
+    width: 100%;
+    
+}
+
+.t7{
+    float:left;
+    width: 100%;
+}
+
+.t8{
+    float:left;
+    width: 100%;
+}
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    body{
+        background-color: yellow;
+    }
     
     .img1{
         width: 50%;
         height:250px;
     }
     
+    .img1 a{
+        top: 63%;
+        left: 20%;
+        transform: translate(-20%, -60%);
+        -ms-transform: translate(-20%, -60%);
+    }
     .img2{
         width: 50%;
         height:250px;
+    }
+
+   .img2 a{
+        top: 63%;
+        left: 70%;
+        transform: translate(-20%, -60%);
+        -ms-transform: translate(-20%, -60%);
     }
 
     .img3{
@@ -294,27 +829,124 @@ div{
         height:400px;
     }
     
-    .textoverlay{
-        margin-top:120px;
+    .img3 a{
+        top: 89%;
+        left: 41%;
+        transform: translate(-20%, -60%);
+        -ms-transform: translate(-20%, -60%);
     }
     
-         #hamburger_btn {
-                display: none;
-            }
-            #nav {
-                display: block;
-            }
+    .textoverlay{
+        margin-top: 110px;
+    }
+  
+    .paper{
+        width: 100%;
+        height: 500px;
+    }
     
+    .tech{
+        width: 100%;
+        height: 500px;        
+    }   
+    
+    .paper a{
+        top: 25%;
+        left: 50%;
+        transform: translate(-25%, -50%);
+        -ms-transform: translate(-25%, -50%);
+    }
+        
+    .tech a{
+        top: 65%;
+        left: 53%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+    
+    .p1{
+    float:left;
+    width: 100%;
+}
+
+    .p2{
+    float:left;
+    width: 100%;
+    
+}
+
+    .p3{
+    float:left;
+    width: 100%;
+}
+
+    .p4{
+    float:left;
+    width: 100%;
+    
+}
+  
+    .t1{
+    float:left;
+    width: 100%;
+}
+
+.t2{
+    float:left;
+    width: 100%;
+    
+}
+
+.t3{
+    float:left;
+    width: 100%;
+}
+
+.t4{
+    float:left;
+    width: 100%;
+    
+}
+
+.t5{
+    float:left;
+    width: 100%;
+}
+
+.t6{
+    float:left;
+    width: 100%;
+    
+}
+
+.t7{
+    float:left;
+    width: 100%;
+}
+
+.t8{
+    float:left;
+    width: 100%;
+}
+    
+
 /*  adjust text overlay for img 3 only? */
 
      .video{
          width: 50%;
         height:250px;
     }
+    
+     .submit{
+        height: 500px
+    }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+        body{
+        background-color: green;
+    }
     
     .textoverlay{
         margin-top:120px;
@@ -324,23 +956,119 @@ div{
         width: 33.33%;
         height:250px;
     }
+    
+   .img1 a{
+        top: 63%;
+        left: 13%;
+        transform: translate(-20%, -60%);
+        -ms-transform: translate(-20%, -60%);
+    }
+
     .img2{
         width: 33.33%;
         height:250px;
     }
+    
+    .img2 a{
+        top: 63%;
+        left: 46%;
+        transform: translate(-20%, -60%);
+        -ms-transform: translate(-20%, -60%);
+    }
+    
     .img3{
         width: 33.33%;
         height:250px;
+    }
+
+    .img3 a{
+        top: 63%;
+        left: 77%;
+        transform: translate(-20%, -60%);
+        -ms-transform: translate(-20%, -60%);
+    }
+    
+    .paper{
+        width: 50%;
+        float: left;;
+        height: 1000px;
+    }
+    
+    .paper a{
+        top: 50%;
+        left: 25%;
+        transform: translate(-25%, -50%);
+        -ms-transform: translate(-25%, -50%);
+        font-size: 50px;
+    }
+        
+    .tech a{
+        top: 50%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        font-size: 50px;
     }
     
      .video{
          width: 33.33%;
         height:250px;
+    }
+    
+     .submit{
+        height: 700px
+    }
+    
+    .t1{
+        float:left;
+        width: 50%;
+    }
+
+    .t2{
+        float:left;
+        width: 50%;
+
+    }
+
+    .t3{
+        float:left;
+        width: 50%;
+    }
+
+    .t4{
+        float:left;
+        width: 50%;
+
+    }
+
+    .t5{
+        float:left;
+        width: 50%;
+    }
+
+    .t6{
+        float:left;
+        width: 50%;
+
+    }
+
+    .t7{
+        float:left;
+        width: 50%;
+    }
+
+    .t8{
+        float:left;
+        width: 50%;
     }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px){    
+        body{
+        background-color: blue;
+    }
+    
     .textoverlay{
         margin-top:120px;
     }
@@ -362,15 +1090,108 @@ div{
          width: 33.33%;
         height:250px;
     }
+    
+<<<<<<< HEAD
+    .submit{
+        height: 700px
+    }
 }
+=======
+        
+    .tech{
+        width: 50%;
+        float: left;
+        height: 1000px;
+    }
+    
+    .paper{
+        width: 50%;
+        float: left;;
+        height: 1000px;
+    }
+    
+    .paper a{
+    top: 50%;
+    left: 25%;
+    transform: translate(-25%, -50%);
+    -ms-transform: translate(-25%, -50%);
+    font-size: 50px;
+    }
+        
+    .tech a{
+        top: 50%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        font-size: 50px;
+    }
+    
+    .papertitle{
+        height: 500px;
+    }
+    
+    .p1{
+        float:left;
+        width: 50%;
+    }
 
+    .p2{
+        float:left;
+        width: 50%;
 
-/* Watch the Documentary */
+    }
 
-.videos{
-    float: inherit;
-    height: auto;
-    width: 100%;
-    overflow: hidden;
-   
+    .p3{
+        float:left;
+    width: 50%;
+    }
+
+    .p4{
+        float:left;
+    width: 50%;
+
+    }
+    
+    .t1{
+        float:left;
+        width: 50%;
+    }
+
+    .t2{
+        float:left;
+        width: 50%;
+
+    }
+
+    .t3{
+        float:left;
+        width: 50%;
+    }
+
+    .t4{
+        float:left;
+        width: 50%;
+
+    }
+
+    .t5{
+        float:left;
+        width: 50%;
+    }
+
+    .t6{
+        float:left;
+        width: 50%;
+
+    }
+
+    .t7{
+        float:left;
+        width: 50%;
+    }
+
+    .t8{
+        float:left;
+        width: 50%;
+    }
 }
