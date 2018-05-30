@@ -430,6 +430,16 @@ div{
     padding-left: 60%;
 }
 
+.submit_btn{
+    color: white;
+    text-decoration:none;
+    float: left;
+     width: 100px;
+    padding-left: 55px;
+    margin: 25px;
+    background-color: white
+}
+
 /* Style inputs, select elements and textareas */
 input[type=text], select, textarea{
   width: 100%;
@@ -446,16 +456,7 @@ label {
   display: inline-block;
 }
 
-/* Style the submit button */
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-}
+
 
 /* Style the container */
 .container {
@@ -509,6 +510,14 @@ input[type=submit] {
     height: 180px;
 }
 
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+
+/* RESPONSIVE LAYOUT */
+
+>>>>>>> 68aeaf61cc25493711b7bec48fa6988245033874
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
