@@ -412,7 +412,7 @@ div{
     height: auto;
     width: 100%;
     text-align: center;
-    padding-top: 1000px        
+    padding-top: 1100px;        
 }
 
 .dwight{
@@ -449,6 +449,7 @@ div{
     height: auto;
     width: 100%;
     text-align: center; 
+    
 }
 
 
@@ -841,7 +842,11 @@ label {
     float:left;
     width: 100%;
 }
-    
+    .erinimg{
+        width: 100%;
+        max-width: 600px;
+    }
+  
     
 } 
 
@@ -851,6 +856,7 @@ label {
         background-color: yellow;
     }
     
+
     .img1{
         width: 50%;
         height:250px;
@@ -984,7 +990,33 @@ label {
         height: 500px
     }
     
-  
+    .erin img{
+        width: 100%;
+        max-width: 768px;
+    }
+    .angela img{
+          width: 100%;
+        max-width: 768px;
+    }
+    .dwight img{
+          width: 100%;
+        max-width: 768px;
+    }
+    
+    .toby img{
+          width: 100%;
+        max-width: 768px;
+    }
+    
+    .jim img{
+          width: 100%;
+        max-width: 768px;
+    }
+    
+    .michael img{
+          width: 100%;
+        max-width: 768px;
+    }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -1111,6 +1143,36 @@ label {
     .t8{
         float:left;
         width: 50%;
+    }
+    
+      .erin img{
+        width: 100%;
+        max-width: 992px;
+    }
+    
+    .angela img{
+        width: 100%;
+        max-width: 992px;
+    }
+    
+    .toby img{
+        width: 100%;
+        max-width: 992px;
+    }
+    
+    .dwight img{
+        width: 100%;
+        max-width: 992px;
+    }
+    
+    .jim img{
+        width: 100%;
+        max-width: 992px;
+    }
+  
+    .michael img{
+        width: 100%;
+        max-width: 992px;
     }
 } 
 
@@ -1242,6 +1304,34 @@ label {
         float:left;
         width: 50%;
     }
+  .erin img{
+        width: 100%;
+        max-width: 768px;
+    }
 
+.angela img{
+    width: 100%;
+    max-width: 768px;
+}
+
+.toby img{
+    width: 100%;
+    max-width: 768px;
+}
+
+.dwight img{
+    width: 100%;
+    max-width: 768px;
+}
+
+.jim img{
+    width: 100%;
+    max-width: 768px;
+}
+
+.michael img{
+    width: 100%;
+    max-width: 768px;
+}
 
 }
