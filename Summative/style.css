@@ -218,30 +218,31 @@ div{
 }
 
 .paper{
+    float: left;
     width: 100%;
     text-align: center;
     background-image: url(img/Paper-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 950px;
+    height: 700px;
 }
 
 .tech{
-    width: 100%;    
+    float: left;
+    width: 100%;
     text-align: center;
     background-image: url(img/Tech.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
-    height: 950px;
+    background-size: cover;
+    height: 700px;
 }
 
-/* Style the button and place it in the middle of the container/image */
 .paper a {
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 25%;
-    transform: translate(-25%, -50%);
-    -ms-transform: translate(-25%, -50%);
+    transform: translate(-25%, -25%);
+    -ms-transform: translate(-25%, -25%);
     background-color:orangered;
     color: white;
     font-weight: bold;
@@ -261,7 +262,6 @@ div{
 }
 
 
-/* apply to product button */
 .tech a{
     position: absolute;
     top: 50%;
@@ -545,7 +545,8 @@ label {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
+
+.col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
@@ -556,7 +557,7 @@ label {
     width: 100%;
     height: auto;
     float: left;
-    color: ;
+    color: white;
     text-align: center;
     background-image: url(img/contatc_banner.jpg);
     background-repeat: no-repeat;
@@ -577,7 +578,7 @@ label {
 @media only screen and (max-width: 600px) {
         
     body{
-     
+     background-color: red;
     }
     
     .banner{
@@ -608,16 +609,15 @@ label {
          width: 100%;
         height:250px;
     }
-        .paper{
+    .paper{
         width: 100%;
         height: 350px;
     }
     
     .tech{
         width: 100%;
-        height: 350px;        
-    }  
-    
+        height: 350px;
+    }
     .paper a{
         top: 20%;
         left: 50%;
@@ -634,28 +634,24 @@ label {
 
 <<<<<<< HEAD
      .submit{
-        height: 600px
+        height: 600px;
     }
 =======
     
     .p1{
-    float:left;
     width: 100%;
 }
 
     .p2{
-    float:left;
     width: 100%;
     
 }
 
     .p3{
-    float:left;
     width: 100%;
 }
 
     .p4{
-    float:left;
     width: 100%;
     
 }
@@ -709,10 +705,11 @@ label {
 @media only screen and (min-width: 600px) {
         
     body{
-        
+     background-color: orange;
     }
+
      .textoverlay{
-        margin-top: 90px;
+        margin-top: 70px;
     }   
     
     .img1{
@@ -756,28 +753,27 @@ label {
         height:200px;
     }
      .submit{
-        height: 250px
+        height: 250px;
     }
     
     .paper{
         width: 100%;
-        height: 350px;
+        height: 400px;
     }
     
     .tech{
         width: 100%;
-        height: 350px;        
-    }  
-    
+        height: 400px;
+    }
     .paper a{
-        top: 20%;
-        left: 50%;
+        top: 15%;
+        left: 20%;
         transform: translate(-25%, -50%);
         -ms-transform: translate(-25%, -50%);
     }
         
     .tech a{
-        top: 48%;
+        top: 50%;
         left: 55%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -786,24 +782,22 @@ label {
     .p1{
     float:left;
     width: 100%;
-}
+    }
 
     .p2{
     float:left;
     width: 100%;
-    
-}
+    }
 
     .p3{
     float:left;
     width: 100%;
-}
+    }
 
     .p4{
     float:left;
     width: 100%;
-    
-}
+    }
     
     .t1{
     float:left;
@@ -854,7 +848,7 @@ label {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     body{
-        
+        background-color: yellow;
     }
     
     .img1{
@@ -893,7 +887,8 @@ label {
     }
     
     .textoverlay{
-        margin-top: 110px;
+        margin-top: 80px;
+        
     }
   
     .paper{
@@ -901,10 +896,7 @@ label {
         height: 500px;
     }
     
-    .tech{
-        width: 100%;
-        height: 500px;        
-    }   
+
     
     .paper a{
         top: 25%;
@@ -921,23 +913,18 @@ label {
     }
     
     .p1{
-    float:left;
     width: 100%;
-}
+    }
 
     .p2{
-    float:left;
     width: 100%;
-    
-}
+    }
 
     .p3{
-    float:left;
     width: 100%;
-}
+    }
 
     .p4{
-    float:left;
     width: 100%;
     
 }
@@ -1002,8 +989,8 @@ label {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-        body{
-       
+    body{
+        background-color: greenyellow;
     }
     
     .textoverlay{
@@ -1047,13 +1034,19 @@ label {
     }
     
     .paper{
-        width: 50%;
+        width: 100%;
         float: left;;
-        height: 1000px;
+        height: 600px;
+    }
+    
+    .tech{
+        width: 100%;
+        float; left;
+        height: 600px;
     }
     
     .paper a{
-        top: 50%;
+        top: 25%;
         left: 25%;
         transform: translate(-25%, -50%);
         -ms-transform: translate(-25%, -50%);
@@ -1074,7 +1067,7 @@ label {
     }
     
      .submit{
-        height: 700px
+        height: 700px;
     }
     
     .t1{
@@ -1123,8 +1116,8 @@ label {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px){    
-        body{
-        
+    body{
+        background-color: blue;
     }
     
     .textoverlay{
@@ -1151,23 +1144,11 @@ label {
     
 <<<<<<< HEAD
     .submit{
-        height: 700px
+        height: 700px;
     }
 }
 =======
-        
-    .tech{
-        width: 50%;
-        float: left;
-        height: 1000px;
-    }
-    
-    .paper{
-        width: 50%;
-        float: left;;
-        height: 1000px;
-    }
-    
+
     .paper a{
     top: 50%;
     left: 25%;
@@ -1184,6 +1165,16 @@ label {
         font-size: 50px;
     }
     
+.paper{
+    width: 50%;
+    float: left;
+    height: 900px;
+}
+    .tech{
+    width: 50%;
+    float: left;
+    height: 900px;
+}
     .papertitle{
         height: 500px;
     }
@@ -1201,13 +1192,12 @@ label {
 
     .p3{
         float:left;
-    width: 50%;
+        width: 50%;
     }
 
     .p4{
         float:left;
-    width: 50%;
-
+        width: 50%;
     }
     
     .t1{
