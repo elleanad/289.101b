@@ -605,10 +605,6 @@ label {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-        
-    body{
-     background-color: red;
-    }
     
     .banner{
         width: 100%;
@@ -742,11 +738,7 @@ label {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-        
-    body{
-     background-color: orange;
-    }
-
+    
      .textoverlay{
         margin-top: 70px;
     }   
@@ -930,10 +922,6 @@ label {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    body{
-        background-color: yellow;
-    }
-    
 
     .img1{
         width: 50%;
@@ -1159,9 +1147,6 @@ label {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    body{
-        background-color: greenyellow;
-    }
     
     .textoverlay{
         margin-top:50px;
@@ -1316,10 +1301,7 @@ label {
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px){    
-    body{
-        background-color: blue;
-    }
+@media only screen and (min-width: 1200px){   
     
     .textoverlay{
         margin-top:50px;
